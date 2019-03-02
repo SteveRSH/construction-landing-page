@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 300px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------REUSABLE-------------*/
+
+a, li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.main-nav li a,
+.what-we-do,
+.worked-for,
+.call-number,
+.erosion-control-section,
+.concrete-details {
+   color: white;
+       
+}
+
+/*------HOME PAGE-------------*/
+
+.home{
+    padding: 1% 5% 1% 2%;
+    background-color: #a1d8a3;
+}
+
+.business-name{
+    display: inline-block;
+    margin-right: 50%;
+}
+
+.phone{
+    padding-right: 1%;
+}
+
+/*-------NAV BAR----------------*/
+
+.navbar-with-image{   
+    background-image: linear-gradient(rgba(67, 83, 74, 0.07), rgba(0, 0, 0, 0.7)), url(../images/home.jpg);
+    width: auto;
+    height: 1067px;
+    opacity:0.9;
+}
+
+.navbar-with-image li{    
+}
+
+.site-info{
+    text-align: center;   
+}
+
+.main-nav li{
+    display: inline-block;
+    padding: 1% 5% 1% 0; 
+    
+}
+
+.service p{
+    color: white;
+    padding: 1% 5% 1% 2%;
+    width: 300px;
+    font-display: block;
+}
+
+.what-we-do,
+.worked-for{
+    padding: 5% 0 1% 2%;
+}
+
+.what-we-do li:first-child{
+    text-transform: uppercase; 
+    padding-bottom: 1%;    
+}
+
+.li-what-we-do{
+    text-transform: capitalize;     
+}
+
+.worked-for li:first-child{
+    text-transform: uppercase; 
+    padding-bottom: 1%;    
+}
+
+.call-number{
+    padding: 5% 0 2% 2%;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 50px;
+  cursor: pointer;
+  border-radius: 5%;    
+}
+
+li a{
+   
+}
+
+/*-------SITE HTML----------------*/
+
+.work-clean-page{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/clear-site-work.jpg);
+    background-size: cover;
+    width: auto;
+    height: 650px;
+    opacity:0.9;
+   
+}
+
+.site-heading{
+    padding-top: 16px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: .05px;
+    color: aliceblue;
+}
+
+.site-heading p{
+    font-size: 16px;
+    padding-top: 14px;
+    color: aliceblue;
+    width: 400px;
+    text-align: justify;
+    margin: auto;
+    letter-spacing: .05px;    
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 150px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*-------EROSION HTML----------------*/
+
+.test-mulitple-images{
+ background-image: linear-gradient(rgba(52, 121, 82, 0.07), rgba(0, 0, 0, 0.7)), url(../images/erosion-background.jpg);
+ background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 850px;
+    opacity:0.9;
+
+ /*Transition Parameters*/
+ -webkit-transition: all 0.7s ease-in-out;
+ -moz-transition: all 0.7s ease-in-out;
+ -o-transition: all 0.7s ease-in-out;
+ -ms-transition: all 0.7s ease-in-out;
+ transition: all 0.7s ease-in-out;
+}
+ 
+.test-mulitple-images:hover {
+background-image: linear-gradient(rgba(52, 121, 82, 0.07), rgba(0, 0, 0, 0.7)), url(../images/erosion-background2.jpg); 
+opacity:0.9;
+}
+
+.erosion-control-section{
+    padding-left: 2%;
+}
+
+.rip-rap-h4{
+    margin-top: 15px;
+}
+
+.erosion-control-section p{
+    width: 300px;
+    margin-top: 10px;
+}
+
+/*-------CONCRETE HTML----------------*/
+
+.concrete-background{
+   background-image: linear-gradient(rgba(52, 121, 82, 0.07), rgba(0, 0, 0, 0.7)), url(../images/concrete.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 850px;
+    opacity:0.9;    
+}
+
+.concrete-details{
+    width: 300px;
+    float: right;
+    margin-top: 15%;
+    padding-right: 2%;
+}
+
+
+.column-concrete {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 225px; /* Should be removed. Only for demonstration */
+    
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+    
+}
+
+.concrete-columns{
+    margin-top: 40%;
+}
+
+/*-------CONTACT HTML----------------*/
+
+.background-for-contact{
+    background-image: url(../images/contact-page-jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 850px;
+    opacity:0.9;    
+}
+
+.contact-form{
+    display: inline-block;
+   float:left;
+}
+
+.map{
+    float:right;
+}
+
+.contact-and-map{
+    height: 300px;
+    background-size: cover;
+    background-color: rgba(236, 245, 240, 0.07);
+   
+}
